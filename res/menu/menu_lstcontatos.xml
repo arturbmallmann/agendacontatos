@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 	android:id="@+id/mnEditar"
+        	android:title="@string/strEditar"
+        	android:orderInCategory="1">
+    </item>
+    <item 	android:id="@+id/mnRemover"
+        	android:title="@string/strRemover"
+        	android:orderInCategory="2">
+    </item>
+    <item 	android:id="@+id/mnSMS"
+        	android:title="@string/strSMS"
+        	android:orderInCategory="3">
+    </item>
+    <item 	android:id="@+id/mnLigar"
+        	android:title="@string/strLigar"
+        	android:orderInCategory="4">
+    </item>
+  
+</menu>

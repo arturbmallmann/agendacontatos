@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agenda de Contatos</string>
+    <string name="msgSplash">Carregando o sistema ...</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="btnOk">Ok</string>
+    <string name="btnSair">Sair</string>
+    <string name="opcSenha">Senha:</string>
+    <string name="opcLogin">Usuário:</string>
+    <string name="usuario_senha_incorretos">Usuário e/ou senha incorretos!!</string>
+    <string name="usuario_senha_corretos">Parabéns, você entrou!!</string>
+    <string name="sair">Sair</string>
+    <string name="deseja_sair">Deseja Realmente Sair?</string>
+    <string name="title_activity_lista_contatos">Contatos de %1$s</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="msgBemVindo">Bem Vindo usuário: %1$s</string>
+    <string name="strSobre">Sobre</string>
+    <string name="falhaSair">Falha na aplicação, ela será fechada</string>
+    <string name="strEditar">Editar</string>
+    <string name="strRemover">Remover</string>
+    <string name="strSMS">Torpedo</string>
+    <string name="strLigar">Ligar</string>
+	<string name="imprimirEditar">Editar %s!?</string>
+	<string name="imprimirRemover">Remover %s!?</string>
+	<string name="imprimirSMS">Enviar um TORPEDO para %s!?</string>
+	<string name="imprimirCall">Ligar para %s!?</string>
+	<string name="nome">Nome</string>
+	<string name="numero">Número</string>
+	<string name="latitude">Latidude</string>
+	<string name="longitude">Longitude</string>
+	<string name="mapa">Map</string>
+	<string name="cancelar">Cancelar</string>
+	<string name="create_sql">
+	create table usuario(	codusu integer primary key autoincrement,
+							loginusu varchar(15) not null,
+							senhausu varchar(30) not null );
+	create table contato(
+							codcon integer primary key autoincrement,
+							nomecon varchar (50) not null,
+							telcon varchar (20),
+	    					latcon real,
+	    					loncon real,
+	    					fotocon varchar (255) );
+	</string>
+	<string name="campos_vazios">Os campos encontram-se vazios!</string>
+	<string name="contato_adicionado">Contato %s adicionado com exito!</string>
+	<string name="erro">Erro: %s</string>
+	
+</resources>

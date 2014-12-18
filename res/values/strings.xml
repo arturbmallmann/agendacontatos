@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notebook</string>
+    <string name="msgSplash">Loading system ...</string>
+    <string name="title_activity_login">Login</string>
+    <string name="opcLogin">Login:</string>
+    <string name="opcSenha">Password:</string>
+    <string name="btnOk">Ok</string>
+    <string name="btnSair">Exit</string>
+    <string name="usuario_senha_incorretos">User and/or password are incorrects!!</string>
+    <string name="usuario_senha_corretos">Login Accepted!!</string>
+    <string name="sair">Exit</string>
+    <string name="deseja_sair">Do you really exit!?</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="title_activity_lista_contatos">%1$s contacts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msgBemVindo">Wellcome user: %1$s</string>
+    <string name="strNovoContato">New Contact</string>
+    <string name="strSobre">About</string>
+    <string name="falhaSair">Aplicattion chrash, going out!</string>
+    <string name="strEditar">Edit</string>
+    <string name="strRemover">Remove</string>
+    <string name="strSMS">SMS</string>
+    <string name="strLigar">Call</string>
+    <string name="imprimirEditar">Edit %s!?</string>
+    <string name="imprimirRemover">Remove %s!?</string>
+    <string name="imprimirSMS">Send a SMS to %s!?</string>
+    <string name="imprimirCall">Call %s!?</string>
+    <string name="title_activity_adiciona_contato">AdicionaContatoActivity</string>
+    <string name="nome">Name</string>
+    <string name="numero">Number</string>
+    <string name="latitude">Y</string>
+    <string name="longitude">X</string>
+    <string name="cancelar">Cancel</string>
+    <string name="mapa">Map</string>
+	<string name="create_sql">
+	create table usuario(	codusu integer primary key autoincrement,
+							loginusu varchar(15) not null,
+							senhausu varchar(30) not null );
+	create table contato(
+							codcon integer primary key autoincrement,
+							nomecon varchar (50) not null,
+							telcon varchar (20),
+	    					latcon real,
+	    					loncon real,
+	    					fotocon varchar (255) );
+	</string>
+	<string name="campos_vazios">Some values are not defined!</string>
+	<string name="contato_adicionado">New Contact %s is added!</string>
+	<string name="erro">Error: %s</string>
+</resources>
