@@ -35,8 +35,7 @@
     <string name="longitude">X</string>
     <string name="cancelar">Cancel</string>
     <string name="mapa">Map</string>
-	<string name="create_sql">
-	create table usuario(	codusu integer primary key autoincrement,
+    <string name="create_sql">	create table usuario(	codusu integer primary key autoincrement,
 							loginusu varchar(15) not null,
 							senhausu varchar(30) not null );
 	create table contato(
@@ -45,9 +44,11 @@
 							telcon varchar (20),
 	    					latcon real,
 	    					loncon real,
-	    					fotocon varchar (255) );
-	</string>
-	<string name="campos_vazios">Some values are not defined!</string>
-	<string name="contato_adicionado">New Contact %s is added!</string>
-	<string name="erro">Error: %s</string>
+	    					fotocon varchar (255) );</string>
+    <string name="campos_vazios">Some values are not defined!</string>
+    <string name="contato_adicionado">New Contact %s is added!</string>
+    <string name="erro">Error: %s</string>
+    <string name="title_activity_mapa">MapaActivity</string>
+    <string name="title_activity_mapas">MapasActivity</string>
+
 </resources>
