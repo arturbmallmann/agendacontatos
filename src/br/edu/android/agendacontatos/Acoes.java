@@ -2,8 +2,7 @@ package br.edu.android.agendacontatos;
 
 import java.io.File;
 
-import com.example.agendacontatos.R;
-
+import br.edu.android.agendacontatos.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;

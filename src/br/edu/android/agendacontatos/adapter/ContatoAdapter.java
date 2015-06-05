@@ -1,7 +1,8 @@
 package br.edu.android.agendacontatos.adapter;
 
 import java.util.List;
-import com.example.agendacontatos.R;
+
+import br.edu.android.agendacontatos.R;
 import br.edu.android.agendacontatos.model.Contato;
 import android.annotation.SuppressLint;
 import android.content.Context;

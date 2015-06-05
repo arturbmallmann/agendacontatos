@@ -1,7 +1,6 @@
 package br.edu.android.agendacontatos.db;
 
-import com.example.agendacontatos.R;
-
+import br.edu.android.agendacontatos.R;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;

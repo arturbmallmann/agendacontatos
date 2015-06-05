@@ -3,12 +3,10 @@ package br.edu.android.agendacontatos;
 
 import java.io.File;
 
+import br.edu.android.agendacontatos.R;
 import br.edu.android.agendacontatos.adapter.ContatoAdapter;
 import br.edu.android.agendacontatos.db.ContatoHelper;
 import br.edu.android.agendacontatos.model.Contato;
-
-import com.example.agendacontatos.R;
-
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;

@@ -1,8 +1,7 @@
 package br.edu.android.agendacontatos;
 
-import com.example.agendacontatos.R;
-import com.example.agendacontatos.R.layout;
-
+import br.edu.android.agendacontatos.R;
+import br.edu.android.agendacontatos.R.layout;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;

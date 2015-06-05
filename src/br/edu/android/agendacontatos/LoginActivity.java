@@ -1,9 +1,7 @@
 package br.edu.android.agendacontatos;
 
+import br.edu.android.agendacontatos.R;
 import br.edu.android.agendacontatos.db.UsuarioHelper;
-
-import com.example.agendacontatos.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
